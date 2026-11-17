@@ -1,0 +1,62 @@
+[
+  {
+    "app": "Spotify: Music and Podcasts",
+    "bundle": "com.spotify.client",
+    "source": "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/1f/74/e91f74f7-5d7a-8b48-94ce-ede900d61bff/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "app": "Instagram",
+    "bundle": "com.burbn.instagram",
+    "source": "https://apps.apple.com/us/app/instagram/id389801252?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/33/79/e3337974-a4b4-d9c5-8fb6-ca99b98f955c/Prod-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "app": "TikTok - Videos, Shop & LIVE",
+    "bundle": "com.zhiliaoapp.musically",
+    "source": "https://apps.apple.com/us/app/tiktok-videos-shop-live/id835599320?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/ba/e5/85bae56f-d7a9-e3ff-a7b6-c48469df6110/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "app": "YouTube",
+    "bundle": "com.google.ios.youtube",
+    "source": "https://apps.apple.com/us/app/youtube/id544007664?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/ce/45/14ce45d8-5ca6-1dfa-c4a5-4660061cf213/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "app": "Photos",
+    "bundle": "com.apple.mobileslideshow",
+    "source": "https://apps.apple.com/us/app/photos/id1584215428?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/6e/79/726e7943-4a7d-091d-3c55-1d46477cdf08/photosCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "app": "Notes",
+    "bundle": "com.apple.mobilenotes",
+    "source": "https://apps.apple.com/us/app/notes/id1110145109?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/53/65/e853659a-0888-7264-743e-0e3875d1505f/notesCalistoga-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  },
+  {
+    "app": "Mail",
+    "bundle": "com.apple.mobilemail",
+    "source": "https://apps.apple.com/us/app/mail/id1108187098?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/20/b2/6e20b217-8f80-9b20-136f-50ee09e2937c/mailCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "app": "Safari",
+    "bundle": "com.apple.mobilesafari",
+    "source": "https://apps.apple.com/us/app/safari/id1146562112?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/4a/12/9b4a12c2-7ea9-9e38-4d4f-f1342b310519/safariCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "app": "Calendar",
+    "bundle": "com.apple.mobilecal",
+    "source": "https://apps.apple.com/us/app/calendar/id1108185179?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/5a/cd/ca5acd85-c64d-f468-00f9-50fdc4819e59/calendarCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "app": "Camera",
+    "bundle": "com.apple.camera",
+    "source": "https://apps.apple.com/us/app/camera/id1584216193?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/d6/b2/fdd6b24d-071d-b41d-045c-b72aa99cf9fa/cameraCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  }
+]
