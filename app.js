@@ -1,6 +1,6 @@
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const [content,notes,projects,artist]=await Promise.all(['content','notes','projects','artist'].map(x=>fetch(`${x}.json`).then(r=>{if(!r.ok)throw Error(`Could not load ${x}`);return r.json()})));
+const [content,notes,projects,artist]=await Promise.all(['content','notes','projects','artist'].map(x=>fetch(`${x}.json?v=spotify-youtube-1`,{cache:"no-store"}).then(r=>{if(!r.ok)throw Error(`Could not load ${x}`);return r.json()})));
 const mobile=()=>matchMedia('(max-width:700px)').matches;
 const read=(key)=>{try{return JSON.parse(localStorage.getItem(key)||'[]')}catch{return []}};
 const write=(key,value)=>{try{localStorage.setItem(key,JSON.stringify(value));return true}catch{toast('Your browser could not save this. Try a smaller photo.');return false}};
