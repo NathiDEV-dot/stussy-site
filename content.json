@@ -1,0 +1,83 @@
+{
+  "photos": [
+    {
+      "id": "artist-portrait",
+      "photoUrl": "assets/portrait.jpg",
+      "album": "Portraits",
+      "caption": "$tussy · Artist portrait",
+      "credit": "Spotify artist profile"
+    },
+    {
+      "id": "25s6kXuPQ1aX76qOUHGsoF",
+      "photoUrl": "assets/release-0.jpg",
+      "album": "Artwork",
+      "caption": "Speak Fast · 2026",
+      "credit": "Spotify release artwork",
+      "url": "https://open.spotify.com/album/25s6kXuPQ1aX76qOUHGsoF"
+    },
+    {
+      "id": "64Aa3MayMjpbbUf5FsY5gF",
+      "photoUrl": "assets/release-1.jpg",
+      "album": "Artwork",
+      "caption": "In $ We Trust · 2026",
+      "credit": "Spotify release artwork",
+      "url": "https://open.spotify.com/album/64Aa3MayMjpbbUf5FsY5gF"
+    },
+    {
+      "id": "26GSlL5wkCGR6bgkuqaRTr",
+      "photoUrl": "assets/release-2.jpg",
+      "album": "Artwork",
+      "caption": "Facelift · 2025",
+      "credit": "Spotify release artwork",
+      "url": "https://open.spotify.com/album/26GSlL5wkCGR6bgkuqaRTr"
+    },
+    {
+      "id": "0gK8fGTTdmKxoqknRztZA8",
+      "photoUrl": "assets/release-3.jpg",
+      "album": "Artwork",
+      "caption": "Dialed In · 2024",
+      "credit": "Spotify release artwork",
+      "url": "https://open.spotify.com/album/0gK8fGTTdmKxoqknRztZA8"
+    },
+    {
+      "id": "7GjHt6hIykjyEMIJR32sgb",
+      "photoUrl": "assets/release-4.jpg",
+      "album": "Artwork",
+      "caption": "We Here · 2024",
+      "credit": "Spotify release artwork",
+      "url": "https://open.spotify.com/album/7GjHt6hIykjyEMIJR32sgb"
+    }
+  ],
+  "events": [
+    {
+      "id": "25s6kXuPQ1aX76qOUHGsoF",
+      "name": "Speak Fast",
+      "date": "2026-09-25",
+      "type": "Single",
+      "url": "https://open.spotify.com/album/25s6kXuPQ1aX76qOUHGsoF"
+    },
+    {
+      "id": "64Aa3MayMjpbbUf5FsY5gF",
+      "name": "In $ We Trust",
+      "date": "2026-03-06",
+      "type": "Mixtape",
+      "url": "https://open.spotify.com/album/64Aa3MayMjpbbUf5FsY5gF"
+    },
+    {
+      "id": "26GSlL5wkCGR6bgkuqaRTr",
+      "name": "Facelift",
+      "date": "2025-07-18",
+      "type": "Single",
+      "url": "https://open.spotify.com/album/26GSlL5wkCGR6bgkuqaRTr"
+    },
+    {
+      "id": "7GjHt6hIykjyEMIJR32sgb",
+      "name": "We Here",
+      "date": "2024-03-02",
+      "type": "EP",
+      "url": "https://open.spotify.com/album/7GjHt6hIykjyEMIJR32sgb"
+    }
+  ],
+  "djSets": [],
+  "behindTheScenes": []
+}

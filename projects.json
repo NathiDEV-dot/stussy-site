@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Spotify",
+    "url": "https://open.spotify.com/artist/4XZllFNYCCy04axq9f64Z5",
+    "description": "Listen to $tussy. Music, releases and the complete artist profile."
+  },
+  {
+    "title": "Speak Fast",
+    "url": "https://open.spotify.com/album/25s6kXuPQ1aX76qOUHGsoF",
+    "description": "Single · 2026",
+    "art": "assets/release-0.jpg"
+  },
+  {
+    "title": "In $ We Trust",
+    "url": "https://open.spotify.com/album/64Aa3MayMjpbbUf5FsY5gF",
+    "description": "Mixtape · 2026",
+    "art": "assets/release-1.jpg"
+  },
+  {
+    "title": "Facelift",
+    "url": "https://open.spotify.com/album/26GSlL5wkCGR6bgkuqaRTr",
+    "description": "Single · 2025",
+    "art": "assets/release-2.jpg"
+  },
+  {
+    "title": "Dialed In",
+    "url": "https://open.spotify.com/album/0gK8fGTTdmKxoqknRztZA8",
+    "description": "Project · 2024",
+    "art": "assets/release-3.jpg"
+  },
+  {
+    "title": "We Here",
+    "url": "https://open.spotify.com/album/7GjHt6hIykjyEMIJR32sgb",
+    "description": "EP · 2024",
+    "art": "assets/release-4.jpg"
+  },
+  {
+    "title": "Instagram",
+    "url": "https://www.instagram.com/stussydssr/",
+    "description": "@stussydssr · Artist updates, photos and reels."
+  },
+  {
+    "title": "TikTok",
+    "url": "https://www.tiktok.com/@stussydssr",
+    "description": "@stussydssr · Follow the artist on TikTok."
+  },
+  {
+    "title": "Management + bookings",
+    "url": "https://www.instagram.com/mdv.collective/",
+    "description": "@mdv.collective · Enquiries through Instagram."
+  }
+]

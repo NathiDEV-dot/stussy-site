@@ -1,0 +1,126 @@
+{
+  "name": "$tussy",
+  "handle": "stussydssr",
+  "spotify": "https://open.spotify.com/artist/4XZllFNYCCy04axq9f64Z5",
+  "instagram": "https://www.instagram.com/stussydssr/",
+  "tiktok": "https://www.tiktok.com/@stussydssr",
+  "booking": "https://www.instagram.com/mdv.collective/",
+  "releases": [
+    {
+      "id": "25s6kXuPQ1aX76qOUHGsoF",
+      "title": "Speak Fast",
+      "year": 2026,
+      "type": "Single",
+      "date": "2026-09-25",
+      "art": "assets/release-0.jpg",
+      "url": "https://open.spotify.com/album/25s6kXuPQ1aX76qOUHGsoF"
+    },
+    {
+      "id": "64Aa3MayMjpbbUf5FsY5gF",
+      "title": "In $ We Trust",
+      "year": 2026,
+      "type": "Mixtape",
+      "date": "2026-03-06",
+      "art": "assets/release-1.jpg",
+      "url": "https://open.spotify.com/album/64Aa3MayMjpbbUf5FsY5gF"
+    },
+    {
+      "id": "26GSlL5wkCGR6bgkuqaRTr",
+      "title": "Facelift",
+      "year": 2025,
+      "type": "Single",
+      "date": "2025-07-18",
+      "art": "assets/release-2.jpg",
+      "url": "https://open.spotify.com/album/26GSlL5wkCGR6bgkuqaRTr"
+    },
+    {
+      "id": "0gK8fGTTdmKxoqknRztZA8",
+      "title": "Dialed In",
+      "year": 2024,
+      "type": "Project",
+      "art": "assets/release-3.jpg",
+      "url": "https://open.spotify.com/album/0gK8fGTTdmKxoqknRztZA8"
+    },
+    {
+      "id": "7GjHt6hIykjyEMIJR32sgb",
+      "title": "We Here",
+      "year": 2024,
+      "type": "EP",
+      "date": "2024-03-02",
+      "art": "assets/release-4.jpg",
+      "url": "https://open.spotify.com/album/7GjHt6hIykjyEMIJR32sgb"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "0FQVz9frgrhPe8Ya3e7jKy",
+      "title": "Stocko",
+      "artists": "$tussy",
+      "duration": 119082,
+      "explicit": true
+    },
+    {
+      "id": "3qKzvn8lW9IquUisbstcfU",
+      "title": "Facelift",
+      "artists": "$tussy, Jay Dipitsa, Andy Maveric",
+      "duration": 137000,
+      "explicit": true
+    },
+    {
+      "id": "1yG2s2NXvwpD0Gcrbj7D3E",
+      "title": "Speak Fast",
+      "artists": "$tussy",
+      "duration": 158000,
+      "explicit": true
+    },
+    {
+      "id": "7jof5C6hoXf0ePQeFkz2aY",
+      "title": "We Back",
+      "artists": "$tussy",
+      "duration": 173885,
+      "explicit": true
+    },
+    {
+      "id": "0tPstsTb99EvAiJKHhqGnc",
+      "title": "Found U",
+      "artists": "$tussy, nexa",
+      "duration": 144424,
+      "explicit": true
+    },
+    {
+      "id": "6YXS9q7iqrb7gElYptbW4Q",
+      "title": "That's a Fact - Bonus Track",
+      "artists": "$tussy",
+      "duration": 157042,
+      "explicit": true
+    },
+    {
+      "id": "4gJS6KS8po88V85yT7Knrw",
+      "title": "Please Say the $",
+      "artists": "$tussy",
+      "duration": 160063,
+      "explicit": true
+    },
+    {
+      "id": "0hLDHLkdOAdcm8VaXIkGll",
+      "title": "Better Man",
+      "artists": "$tussy",
+      "duration": 177272,
+      "explicit": true
+    },
+    {
+      "id": "5lAkI2N7Q3ICXKnTOmnt3T",
+      "title": "19:00",
+      "artists": "$tussy",
+      "duration": 138701,
+      "explicit": true
+    },
+    {
+      "id": "3buRnZJvgd7L1fQXT3xAHs",
+      "title": "P.A.N",
+      "artists": "$tussy, Jay Dipitsa",
+      "duration": 172444,
+      "explicit": true
+    }
+  ]
+}
