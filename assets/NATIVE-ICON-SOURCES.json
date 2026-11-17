@@ -58,5 +58,11 @@
     "bundle": "com.apple.camera",
     "source": "https://apps.apple.com/us/app/camera/id1584216193?uo=4",
     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/d6/b2/fdd6b24d-071d-b41d-045c-b72aa99cf9fa/cameraCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "app": "Messages",
+    "bundle": "com.apple.MobileSMS",
+    "source": "https://apps.apple.com/us/app/messages/id1146560473?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/8d/32/fc8d32a0-86a7-83d8-7045-57b4b3e71a0b/messagesCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
   }
 ]
