@@ -1,4 +1,4 @@
-const loadExtras=()=>import('./extras.js?v=polish-1');
+const loadExtras=()=>import('./extras.js?v=swipe-1');
 function renderExtra(name,root){root.innerHTML='<div class="empty" role="status">Opening…</div>';loadExtras().then(m=>{if(root.isConnected)m[name](root,artist)}).catch(()=>{if(root.isConnected)root.innerHTML='<div class="empty" role="status">Could not open this app. Close it and try again.</div>'});}
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -12,7 +12,22 @@ const windows=new Map(),wallpaper=$('#wallpaper');
 
 function icon(app){const inside=app.file?`<img src="assets/${app.file}?v=polish-1" alt="" width="128" height="128" decoding="async">`:app.id==='calendar'?`<span class="calendar-icon"><small>${new Date().toLocaleDateString('en',{weekday:'short'})}</small><strong>${new Date().getDate()}</strong></span>`:'';return `<span class="app-icon native-app-icon icon-${app.id}">${inside}</span>`;}
 $('#dock').innerHTML=apps.map((a,i)=>`${i===9?'<span class="dock-separator"></span>':''}<button class="dock-item ${['music','photos','notes','booking'].includes(a.id)?'':'mobile-hide'}" data-app="${a.id}" aria-label="${a.label}">${icon(a)}</button>`).join('');
-$('#home-grid').innerHTML=apps.filter(a=>!['music','photos','notes','booking'].includes(a.id)).map(a=>`<button class="home-app" data-app="${a.id}">${icon(a)}<span>${a.label}</span></button>`).join('');
+const homeApps=apps.filter(a=>!['music','photos','notes','booking'].includes(a.id));
+const homePages=Array.from({length:Math.ceil(homeApps.length/6)},(_,i)=>homeApps.slice(i*6,i*6+6));
+const homeGrid=$('#home-grid');
+homeGrid.setAttribute('aria-label','Home screen apps');homeGrid.setAttribute('tabindex','0');
+homeGrid.innerHTML=homePages.map((page,i)=>`<section class="home-page" aria-label="App page ${i+1} of ${homePages.length}">${page.map(a=>`<button class="home-app" data-app="${a.id}">${icon(a)}<span>${a.label}</span></button>`).join('')}</section>`).join('');
+homeGrid.insertAdjacentHTML('afterend',`<nav class="home-pagination" aria-label="Home screen pages">${homePages.map((_,i)=>`<button aria-label="App page ${i+1}" aria-current="${i===0?'page':'false'}" data-page="${i}"><span></span></button>`).join('')}</nav>`);
+let homePage=0,homeFrame=0;
+function goHomePage(page){const target=Math.max(0,Math.min(homePages.length-1,page));homeGrid.scrollTo({left:target*homeGrid.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}
+$$('[data-page]').forEach(b=>b.onclick=()=>goHomePage(+b.dataset.page));
+homeGrid.addEventListener('scroll',()=>{if(homeFrame)return;homeFrame=requestAnimationFrame(()=>{homeFrame=0;homePage=Math.round(homeGrid.scrollLeft/Math.max(1,homeGrid.clientWidth));$$('[data-page]').forEach((b,i)=>b.setAttribute('aria-current',i===homePage?'page':'false'));});},{passive:true});
+homeGrid.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();goHomePage(homePage+(e.key==='ArrowRight'?1:-1));}});
+let homeTouch=null,homeSwiped=false;
+homeGrid.addEventListener('pointerdown',e=>{homeTouch={x:e.clientX,y:e.clientY};homeSwiped=false;},{passive:true});
+homeGrid.addEventListener('pointermove',e=>{if(homeTouch&&Math.abs(e.clientX-homeTouch.x)>12)homeSwiped=true;},{passive:true});
+homeGrid.addEventListener('click',e=>{if(homeSwiped){e.preventDefault();e.stopPropagation();homeSwiped=false;}},true);
+window.addEventListener('resize',()=>{if(mobile())homeGrid.scrollTo({left:homePage*homeGrid.clientWidth,behavior:'instant'});});
 $$('[data-app]').forEach(b=>b.addEventListener('click',()=>openApp(b.dataset.app)));
 function clock(){const now=new Date();$('#lock-date').textContent=now.toLocaleDateString('en',{weekday:'long',month:'long',day:'numeric'});$('#lock-time').textContent=now.toLocaleTimeString('en',{hour:'numeric',minute:'2-digit'});$('#menutime').textContent=now.toLocaleDateString('en',{weekday:'short',month:'short',day:'numeric'})+' '+now.toLocaleTimeString('en',{hour:'numeric',minute:'2-digit'});}
 clock();setInterval(()=>{if(!document.hidden)clock()},30000);
