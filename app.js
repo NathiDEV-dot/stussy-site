@@ -1,4 +1,4 @@
-import {messages,games} from './extras.js?v=apps-1';
+import {messages,games} from './extras.js?v=trivia-1';
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const [content,notes,projects,artist]=await Promise.all(['content','notes','projects','artist'].map(x=>fetch(`${x}.json?v=spotify-youtube-1`,{cache:"no-store"}).then(r=>{if(!r.ok)throw Error(`Could not load ${x}`);return r.json()})));
